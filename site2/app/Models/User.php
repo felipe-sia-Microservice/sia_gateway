@@ -10,9 +10,9 @@ class User extends Model
 public $timestamps = false; 
   
 protected $table = 'usersite2'; 
-protected $primaryKey = 'usernum';  
+protected $primaryKey = 'userid';  
   
 protected $fillable = [ 
-    'usernum', 'username', 'password', 'gender'
+    'userid', 'username', 'password', 'gender'
 ]; 
 }
